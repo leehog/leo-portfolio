@@ -15,6 +15,49 @@ a {
   box-sizing: border-box;
 }
 
+/*
+xs: '650px',
+sm: '960px',
+md: '1280px',
+lg: '1400px',
+xl: '1920px'
+ */
+
+@media (max-width: 1920px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1400px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1280px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 960px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
